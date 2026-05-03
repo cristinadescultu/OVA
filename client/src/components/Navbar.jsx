@@ -1,3 +1,4 @@
+// client/src/components/Navbar/Navbar.jsx
 import {
   Disclosure,
   DisclosureButton,
@@ -13,12 +14,15 @@ import { useSelector, useDispatch } from 'react-redux';
 import { logout } from '../store/slices/userSlice';
 import { classNames } from '../utils/tailwind';
 
+// MODIFICAREA SE AFLĂ EXCLUSIV AICI
 const navigation = [
   { name: 'Homepage', href: '/' },
   { name: 'Products', href: '/products' },
   { name: 'Favorite', href: '/favorites' }, 
+  { name: 'Blog', href: '/blog' },
+  { name: 'Contact', href: '/contact' },
 ];
-
+// SFÂRȘITUL MODIFICĂRII
 
 export default function Navbar() {
   const location = useLocation();
