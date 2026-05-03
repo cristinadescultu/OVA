@@ -4,7 +4,7 @@ const articles = [
   {
     tag: 'Nutriție & Imunitate',
     title: 'Cele mai importante vitamine pentru imunitate în sezonul rece',
-    meta: '🗓 15 Aprilie 2026 · Autor: Farm. Maria Ionescu · 5 min citire',
+    meta: '🗓 15 Aprilie 2026 · Autor: Farm. Maria Ionescu · 1 min citire',
     emoji: '🌿',
     color: 'bg-emerald-50',
     excerpt: 'Descoperă ce suplimente te ajută să menții sistemul imunitar puternic în toamnă și iarnă.',
@@ -22,7 +22,7 @@ const articles = [
   {
     tag: 'Sănătate Cardiovasculară',
     title: 'Cum să monitorizezi corect tensiunea arterială acasă',
-    meta: '🗓 28 Martie 2026 · Autor: Farm. Alexandru Popa · 7 min citire',
+    meta: '🗓 28 Martie 2026 · Autor: Farm. Alexandru Popa · 1 min citire',
     emoji: '💙',
     color: 'bg-blue-50',
     excerpt: 'Ghid practic pentru utilizarea tensiometrului digital și interpretarea valorilor.',
@@ -36,7 +36,7 @@ const articles = [
   {
     tag: 'Îngrijire Personală',
     title: 'Rutina zilnică de îngrijire a pielii recomandată de dermatolog',
-    meta: '🗓 10 Martie 2026 · Autor: Dr. Farm. Elena Dumitrescu · 4 min citire',
+    meta: '🗓 10 Martie 2026 · Autor: Dr. Farm. Elena Dumitrescu · 2 min citire',
     emoji: '🌞',
     color: 'bg-orange-50',
     excerpt: 'Pași simpli pentru o piele sănătoasă cu produse dermatologice accesibile.',
