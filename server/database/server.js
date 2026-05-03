@@ -9,8 +9,10 @@ const sequelize = new Sequelize({
 
 sequelize
   .sync()
-  .then(() => {
-    console.log("Models successfully (re)created.");
+  .then(async () => {
+    console.log("Models successfully synced.");
+    const seed = require('./seed'); 
+    await seed();                    
   })
   .catch((err) => {
     console.log(err);
